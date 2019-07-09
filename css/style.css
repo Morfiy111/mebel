@@ -200,3 +200,20 @@ h1, h2, h3, h4 {
 .about-company {
     padding: 30px 0 20px 0;
 }
+.price-block-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.price-block-table {
+    width: 58%;
+}
+.price-block-description {
+    width: 38%;
+}
+.results-item-kmr {
+    width: 18%;
+    text-align: center;
+}
+.results-items-flex-kmr {
+    justify-content: center;
+}
