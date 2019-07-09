@@ -31,10 +31,19 @@ $(document).ready(function(){
     });
 });
 $(window).scroll(function() {
-    if ($(this).scrollTop() > 1){
+    if ($(this).scrollTop() > 0.1){
         $('.header-page').addClass("sticky");
     }
     else{
         $('.header-page').removeClass("sticky");
     }
+});
+
+$(document).ready(function(){
+    $('#button-up').click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    });
 });

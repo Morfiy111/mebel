@@ -1,19 +1,22 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: #777;
+    font-size: 16px;
+    line-height: 1.62;
 }
 a, button {
     transition: all .3s linear;
 }
 a:hover {
-    color: #90ee90;
+    color: #f08a14;
     text-decoration: none;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    background-color: #90ee90;
+    background-color: #f08a14;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background-color: #90ee90;
+    background-color: #f08a14;
+    color: #fff;
 }
 .navbar-default .navbar-nav > li > a {
     font-size: 16px;
@@ -44,10 +47,13 @@ a:hover {
     font-size: 18px;
     color: #f08a14;
 }
+.phone-header-block a:hover {
+    color: #FFA684;
+}
 .main-banner-block {
     display: flex;
     align-items: center;
-    margin: 30px 0;
+    margin-top: 30px;
 }
 .banner-main-img {
     width: 40%;
@@ -100,4 +106,46 @@ a:hover {
     z-index: 999;
     background-color: #fff;
     transition: 0.2s top cubic-bezier(.3,.73,.3,.74);
+}
+.border-bottom-section, .description-text-block {
+    border-bottom: 2px solid #e6e6e6;
+}
+.section-title {
+    font-weight: bold;
+    margin: 0 0 30px 0;
+}
+.description-text-block p {
+    font-size: 16px;
+}
+.description-text-block {
+    padding: 20px 0;
+}
+.section-goods-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.goods-page-title-img {
+    width: 48%
+}
+.goods-page-discription {
+    width: 48%;
+}
+.goods-price-details-read-more a {
+    color: #f08a14;
+}
+.goods-price-details-read-more a:hover {
+    color: #FFA684;
+}
+.goods-price-details-from {
+    color: #e6e6e6;
+}
+.goods-price-details {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.goods-page-block {
+    border-bottom: 2px solid #e6e6e6;
+    margin: 30px 0;
+    padding-bottom: 30px;
 }
