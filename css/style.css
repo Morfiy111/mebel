@@ -217,3 +217,23 @@ h1, h2, h3, h4 {
 .results-items-flex-kmr {
     justify-content: center;
 }
+.comment-block-row {
+    display: flex;
+    margin-bottom: 30px;
+}
+.comment-user-avatar {
+    width: 16%;
+    margin-right: 25px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.comment-user-avatar img {
+    width: 100%;
+}
+.comment-user-text {
+    width: 83%;
+}
+.footer-copyright {
+    text-align: center;
+    padding: 30px 0;
+}
