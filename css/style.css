@@ -149,3 +149,30 @@ a:hover {
     margin: 30px 0;
     padding-bottom: 30px;
 }
+.section-title-center {
+    text-align: center;
+}
+.reasons-block-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.reasons-block-icon {
+    width: 100px;
+    text-align: center;
+}
+.reasons-block-icon i {
+    color: #f08a14;
+    font-size: 55px;
+    padding-top: 15px;
+}
+.reasons-block-left {
+    width: 40%;
+    text-align: right;
+}
+.reasons-block-right {
+    width: 40%;
+}
+.reasons-block-row h4 {
+    font-weight: bold;
+}
