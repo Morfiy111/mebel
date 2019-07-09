@@ -2,7 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #777;
 }
-a {
+a, button {
     transition: all .3s linear;
 }
 a:hover {
@@ -43,4 +43,61 @@ a:hover {
     font-weight: bold;
     font-size: 18px;
     color: #f08a14;
+}
+.main-banner-block {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+.banner-main-img {
+    width: 40%;
+}
+.banner-main-img img {
+    width: 100%;
+}
+.main-button-inputs {
+    width: 60%;
+    text-align: center;
+}
+.main-button-inputs input {
+    border-radius: 4px;
+    border: 1px solid #f08a14;
+    padding: 8px 10px;
+    width: 38%;
+    margin: 10px 15px 20px 15px;
+}
+.main-button-inputs input:focus {
+    outline: none;
+}
+.main-button-inputs button {
+    background-color: #f08a14;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    border: 2px solid #f08a14;
+    padding: 10px 30px;
+}
+.main-button-inputs button:hover {
+    background-color: #fff;
+    color: #f08a14;
+}
+.main-button-inputs form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main-button-inputs h1 {
+    font-size: 40px;
+}
+.main-button-inputs p {
+    font-size: 16px;
+}
+.header-page.sticky {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #fff;
+    transition: 0.2s top cubic-bezier(.3,.73,.3,.74);
 }

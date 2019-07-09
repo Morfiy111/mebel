@@ -30,3 +30,11 @@ $(document).ready(function(){
         $('body,html').animate({scrollTop: top}, 1500);
     });
 });
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 1){
+        $('.header-page').addClass("sticky");
+    }
+    else{
+        $('.header-page').removeClass("sticky");
+    }
+});
