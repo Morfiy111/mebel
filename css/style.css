@@ -37,6 +37,7 @@ h1, h2, h3, h4 {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 0;
+    padding: 10px 0;
 }
 .header-page {
     border-bottom: 2px solid #e6e6e6;
@@ -236,4 +237,32 @@ h1, h2, h3, h4 {
 .footer-copyright {
     text-align: center;
     padding: 30px 0;
+}
+.header-logo-block a {
+    color: #777;
+}
+.header-logo-block a:hover {
+    color: #f08a14;
+}
+.contact-block a, .links-footer a {
+    display: block;
+    color: #777;
+}
+.contact-block {
+    margin-bottom: 20px;
+}
+.links-footer-block {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.section-goods-flex-reverse {
+    flex-direction: row-reverse;
+}
+.anchor {
+    padding-top: 80px;
+    margin-top: -80px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+    display: block;
 }
