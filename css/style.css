@@ -274,6 +274,21 @@ h1, h2, h3, h4 {
 .goods-page-img img {
     width: 100%;
 }
+.modal-content .close {
+    right: 10px;
+    top: 7px;
+    position: relative;
+    z-index: 11;
+}
+.modal-title {
+    margin-bottom: 15px;
+}
+.modal-body .main-button-inputs {
+    width: 100%;
+}
+.modal-body .main-button-inputs input {
+    width: 100%;
+}
 @media (max-width: 1199px) {
     .header-logo-block {
         width: 200px;
