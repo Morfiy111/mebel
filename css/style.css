@@ -75,6 +75,7 @@ h1, h2, h3, h4 {
     padding: 8px 10px;
     width: 38%;
     margin: 10px 15px 20px 15px;
+    z-index: 11;
 }
 .main-button-inputs input:focus {
     outline: none;
@@ -86,6 +87,7 @@ h1, h2, h3, h4 {
     border-radius: 4px;
     border: 2px solid #f08a14;
     padding: 10px 30px;
+    z-index: 11;
 }
 .main-button-inputs button:hover {
     background-color: #fff;
@@ -265,4 +267,88 @@ h1, h2, h3, h4 {
     -webkit-background-clip: content-box;
     background-clip: content-box;
     display: block;
+}
+.goods-page-img img {
+    width: 100%;
+}
+@media (max-width: 1199px) {
+    .header-logo-block {
+        width: 200px;
+    }
+}
+@media (max-width: 991px) {
+    .navbar-default {
+        flex-wrap: wrap;
+    }
+    .phone-header-block {
+        width: 100%;
+        text-align: center;
+    }
+    .main-button-inputs form {
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+    .main-button-inputs input {
+        width: 100%;
+    }
+    .anchor {
+        padding-top: 150px;
+        margin-top: -150px;
+    }
+}
+@media (max-width: 767px) {
+    .navbar-default {
+        display: block;
+    }
+    .navbar-collapse {
+        padding-right: 0;
+        padding-left: 0;
+        border-top: none;
+        box-shadow: none;
+        width: 100%;
+    }
+    .banner-main-img {
+        display: none;
+    }
+    .main-button-inputs {
+        width: 100%;
+    }
+    .section-goods-flex {
+        flex-wrap: wrap;
+    }
+    .goods-page-title-img {
+        width: 100%;
+    }
+    .goods-page-discription {
+        width: 100%;
+    }
+    .reasons-block-row {
+        flex-direction: column;
+    }
+    .reasons-block-left, .reasons-block-right, .reasons-block-icon {
+        width: 100%;
+        text-align: center;
+    }
+    .results-items-flex {
+        flex-direction: column;
+    }
+    .results-item {
+        width: 100%;
+    }
+    .results-item-kmr {
+        width: 100%;
+    }
+    .results-icon-kmr {
+        transform: rotate(90deg);
+    }
+    .links-footer-block {
+        flex-wrap: wrap;
+    }
+    .section-title {
+        text-align: center;
+    }
+    .navbar-toggle {
+        margin-top: 0;
+        margin-right: 0;
+    }
 }
