@@ -250,6 +250,9 @@ h1, h2, h3, h4 {
     display: block;
     color: #777;
 }
+.contact-block a:hover, .links-footer a:hover {
+    color: #f08a14;
+}
 .contact-block {
     margin-bottom: 20px;
 }
