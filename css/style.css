@@ -289,6 +289,31 @@ h1, h2, h3, h4 {
 .modal-body .main-button-inputs input {
     width: 100%;
 }
+.owl-prev {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.owl-next {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.chevron-background {
+    font-size: 55px;
+    color: #f08a14;
+}
+.carousel-item-img {
+    padding: 10px;
+}
 @media (max-width: 1199px) {
     .header-logo-block {
         width: 200px;
