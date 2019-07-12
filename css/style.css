@@ -314,6 +314,21 @@ h1, h2, h3, h4 {
 .carousel-item-img {
     padding: 10px;
 }
+.galery-flex-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+.galery-item {
+    width: 32%;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    padding: 10px;
+}
+.galery-item img {
+    width: 100%;
+}
 @media (max-width: 1199px) {
     .header-logo-block {
         width: 200px;
@@ -337,6 +352,9 @@ h1, h2, h3, h4 {
     .anchor {
         padding-top: 150px;
         margin-top: -150px;
+    }
+    .galery-item {
+        width: 48%;
     }
 }
 @media (max-width: 767px) {
@@ -393,5 +411,8 @@ h1, h2, h3, h4 {
     .navbar-toggle {
         margin-top: 0;
         margin-right: 0;
+    }
+    .galery-item {
+        width: 100%;
     }
 }
